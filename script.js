@@ -1,3 +1,5 @@
+
+
 const grid = document.querySelector('.grid');
 const score = document.getElementById('score');
 const result = document.getElementById('result');
@@ -6,6 +8,7 @@ var squares = [];
 var points = 0;
 
 function createBoard() {
+    alert("Use arrow keys on keyboard or on screen buttons to play.");
     for (var i = 0; i < width * width; i++) {
         square = document.createElement('div');
         square.innerHTML = 0;
