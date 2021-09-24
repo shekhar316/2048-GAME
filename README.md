@@ -5,7 +5,7 @@
 <br />
 
 >> ## Play Game Here:
->> [GOOGLE](www.google.com)
+>> [Play 2048](https://shekhar316.github.io/2048-Game/)
 
 <br />
 <br />
@@ -23,4 +23,4 @@
 
 <br/>
 
-![2048 GamePlay](s1.png)
+![2048 GamePlay](s1.PNG)
