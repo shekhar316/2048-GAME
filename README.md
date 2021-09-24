@@ -23,4 +23,4 @@
 
 <br/>
 
-![2048 GamePlay](/img/s1.png)
+![2048 GamePlay](s1.png)
