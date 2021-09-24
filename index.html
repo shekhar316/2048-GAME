@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=1024, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- CUSTOM css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+    <title>2048</title>
+  </head>
+
+  <body>
+    <h1 class="text-center">Let's make 2048</h1>
+
+    <div class="container text-center">
+        <h4 class="text-center">Score <span id = "score">0</span></h4>
+        <h4 class="text-center"><span id = "result"></span></h4>
+        <button id = "lb" class = "btn btn-sm btn-dark" onclick="keyLeft()">Left</button>
+        <button id = "ub" class = "btn btn-sm btn-light" onclick="keyUp()">Up</button>
+        <button id = "bb" class = "btn btn-sm btn-light" onclick="keyDown()">Down</button>
+        <button id = "rb" class = "btn btn-sm btn-dark" onclick="keyRight()">Right</button>
+        <div class="grid mx-auto">
+
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
